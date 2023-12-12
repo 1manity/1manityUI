@@ -1,26 +1,26 @@
 // 这个文件负责重置样式
 
 body {
-  font-family: var(--1ui-font-family);
+  font-family: var(--iui-font-family);
   font-weight: 400;
-  font-size: var(--1ui-font-size-base);
-  color: var(--1ui-text-color-primary);
+  font-size: var(--iui-font-size-base);
+  color: var(--iui-text-color-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
 }
 
 a {
-  color: var(--1ui-color-primary);
+  color: var(--iui-color-primary);
   text-decoration: none;
 
   &:hover,
   &:focus {
-    color: var(--1ui-color-primary-light-3);
+    color: var(--iui-color-primary-light-3);
   }
 
   &:active {
-    color: var(--1ui-color-primary-dark-2);
+    color: var(--iui-color-primary-dark-2);
   }
 }
 
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--1ui-text-color-regular);
+  color: var(--iui-text-color-regular);
   font-weight: inherit;
 
   &:first-child {
@@ -43,15 +43,15 @@ h6 {
 }
 
 h1 {
-  font-size: calc(var(--1ui-font-size-base) + 6px);
+  font-size: calc(var(--iui-font-size-base) + 6px);
 }
 
 h2 {
-  font-size: calc(var(--1ui-font-size-base) + 4px);
+  font-size: calc(var(--iui-font-size-base) + 4px);
 }
 
 h3 {
-  font-size: calc(var(--1ui-font-size-base) + 2px);
+  font-size: calc(var(--iui-font-size-base) + 2px);
 }
 
 h4,
@@ -75,16 +75,16 @@ p {
 
 sup,
 sub {
-  font-size: calc(var(--1ui-font-size-base) - 1px);
+  font-size: calc(var(--iui-font-size-base) - 1px);
 }
 
 small {
-  font-size: calc(var(--1ui-font-size-base) - 2px);
+  font-size: calc(var(--iui-font-size-base) - 2px);
 }
 
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
-  border-top: 1px solid var(--1ui-border-color-lighter);
+  border-top: 1px solid var(--iui-border-color-lighter);
 }
